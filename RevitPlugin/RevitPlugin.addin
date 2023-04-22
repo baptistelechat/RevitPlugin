@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Assembly>RevitPlugin.dll</Assembly>
+    <ClientId>8e9b1ecc-d568-4a0f-b758-e1b493eaad81</ClientId>
+    <FullClassName>RevitPlugin.CurvesTotalLength</FullClassName>
+    <Text>MeasureLength</Text>
+    <VendorId>Baptiste LECHAT</VendorId>
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+  </AddIn>
+</RevitAddIns>
