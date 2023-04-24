@@ -10,6 +10,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Resources\cat.gif" />
+    <None Remove="Resources\CurvesTotalLength.png" />
+    <None Remove="Resources\CurvesTotalLength_32x32.png" />
     <None Remove="RevitPlugin.addin" />
   </ItemGroup>
 
@@ -19,8 +22,18 @@
     </Content>
   </ItemGroup>
 
+  <ItemGroup>
+    <Resource Include="Resources\Cat.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\CurvesTotalLength_32x32.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
 
   <ItemGroup>
+    <Reference Include="PresentationCore" />
     <Reference Include="RevitAPI">
       <HintPath>..\..\..\..\..\..\..\..\Program Files\Autodesk\Revit 2021\RevitAPI.dll</HintPath>
       <EmbedInteropTypes></EmbedInteropTypes>
@@ -31,6 +44,13 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Net.Http" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <Resource Include="Resources\CurvesTotalLength.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
 

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RevitAddIns>
-  <AddIn Type="Command">
+  <AddIn Type="Application">
+    <Name>RevitPlugin</Name>
     <Assembly>RevitPlugin.dll</Assembly>
-    <ClientId>8e9b1ecc-d568-4a0f-b758-e1b493eaad81</ClientId>
-    <FullClassName>RevitPlugin.CurvesTotalLength</FullClassName>
-    <Text>MeasureLength</Text>
+    <AddInId>8e9b1ecc-d568-4a0f-b758-e1b493eaad81</AddInId>
+    <FullClassName>RevitPlugin.App</FullClassName>
     <VendorId>Baptiste LECHAT</VendorId>
-    <VisibilityMode>AlwaysVisible</VisibilityMode>
+    <VendorDescription>baptistelechat https://github.com/baptistelechat</VendorDescription>
   </AddIn>
 </RevitAddIns>
